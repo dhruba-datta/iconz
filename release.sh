@@ -25,6 +25,8 @@ BUILD_TOOLS=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
 cd "$(dirname "$0")"
 OUT=../local/builds/release
 [[ -f key.properties ]] || { echo "key.properties missing: copy ../local/keys/key.properties here"; exit 1; }
+# The release is tagged at the commit that built it, so start from committed work.
+[[ -z $(git status --porcelain) ]] || { echo "commit your changes first"; exit 1; }
 
 latest=$(gh release view --repo "$REPO" --json tagName -q .tagName 2>/dev/null || echo v0.0.0)
 newest=$(printf '%s\n%s\n' "${latest#v}" "$VERSION" | sort -V | tail -1)
@@ -51,8 +53,13 @@ mkdir -p "$OUT"
 cp "$APK" "$OUT/iconz.apk"
 cp "$APK" "$OUT/Iconz-$VERSION.apk"
 
-gh release create "v$VERSION" "$OUT/iconz.apk" --repo "$REPO" \
+git add "$GRADLE" app/src/main/res/xml app/src/main/assets
+git commit -q -m "Release $VERSION"
+git push -q
+# --target: tag exactly the commit just pushed (GitHub needs the full sha).
+gh release create "v$VERSION" "$OUT/iconz.apk" --repo "$REPO" --target "$(git rev-parse HEAD)" \
   --title "Iconz $VERSION" --notes "$NOTES
 
 Signing certificate SHA-256: \`$CERT_SHA256\`"
-echo "✓ Published v$VERSION. Commit app/build.gradle.kts and push."
+git fetch -q --tags
+echo "✓ Published v$VERSION."
