@@ -1,0 +1,26 @@
+{
+  "_readme": "The one list of Iconz icons. After editing, run: python3 tool/build_icons.py. drawable = file in app/src/main/res/drawable. packages = Play Store package names (used by the Missing icons screen; unverified guesses are marked). components = exact package/activity entries launchers match; fill them from the phone with --merge.",
+  "icons": [
+    {"drawable": "bkash", "label": "bKash", "category": "Bangladesh", "packages": ["com.bKash.customerapp"], "components": []},
+    {"drawable": "nagad", "label": "Nagad", "category": "Bangladesh", "packages": ["com.konasl.nagad"], "components": []},
+    {"drawable": "rocket", "label": "Rocket", "category": "Bangladesh", "packages": ["com.dbbl.mbs.apps.main"], "components": []},
+    {"drawable": "upay", "label": "Upay", "category": "Bangladesh", "packages": [], "components": [], "todo": "package name unknown"},
+    {"drawable": "nexuspay", "label": "NexusPay", "category": "Bangladesh", "packages": [], "components": [], "todo": "package name unknown"},
+    {"drawable": "astha", "label": "BRAC Bank Astha", "category": "Bangladesh", "packages": [], "components": [], "todo": "package name unknown"},
+    {"drawable": "citytouch", "label": "Citytouch", "category": "Bangladesh", "packages": ["com.thecitybank.citytouch"], "components": [], "unverified": true},
+    {"drawable": "cellfin", "label": "Cellfin", "category": "Bangladesh", "packages": [], "components": [], "todo": "package name unknown"},
+    {"drawable": "pathao", "label": "Pathao", "category": "Bangladesh", "packages": ["com.pathao.user"], "components": []},
+    {"drawable": "shohoz", "label": "Shohoz", "category": "Bangladesh", "packages": [], "components": [], "todo": "package name unknown"},
+    {"drawable": "foodpanda", "label": "foodpanda", "category": "Bangladesh", "packages": ["com.global.foodpanda.android"], "components": [
+      "com.global.foodpanda.android/de.foodora.android.ui.launcher.LauncherActivity",
+      "com.global.foodpanda.android/de.foodora.android.ui.launcher.LegacyLauncherActivity"
+    ]},
+    {"drawable": "daraz", "label": "Daraz", "category": "Bangladesh", "packages": ["com.daraz.android"], "components": []},
+    {"drawable": "chaldal", "label": "Chaldal", "category": "Bangladesh", "packages": ["com.chaldal.poached"], "components": [], "unverified": true},
+    {"drawable": "mygp", "label": "MyGP", "category": "Bangladesh", "packages": ["com.portonics.mygp"], "components": []},
+    {"drawable": "myrobi", "label": "My Robi", "category": "Bangladesh", "packages": ["net.omobio.robisc"], "components": [], "unverified": true},
+    {"drawable": "mybl", "label": "MyBL", "category": "Bangladesh", "packages": ["com.arena.banglalinkmela.app"], "components": [], "unverified": true},
+    {"drawable": "toffee", "label": "Toffee", "category": "Bangladesh", "packages": ["com.banglalink.toffee"], "components": [], "unverified": true},
+    {"drawable": "prothomalo", "label": "Prothom Alo", "category": "Bangladesh", "packages": [], "components": [], "todo": "package name unknown"}
+  ]
+}

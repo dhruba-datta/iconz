@@ -1,0 +1,98 @@
+{
+ "bkash": {
+  "label": "bKash",
+  "packages": [
+   "com.bKash.customerapp"
+  ]
+ },
+ "nagad": {
+  "label": "Nagad",
+  "packages": [
+   "com.konasl.nagad"
+  ]
+ },
+ "rocket": {
+  "label": "Rocket",
+  "packages": [
+   "com.dbbl.mbs.apps.main"
+  ]
+ },
+ "upay": {
+  "label": "Upay",
+  "packages": []
+ },
+ "nexuspay": {
+  "label": "NexusPay",
+  "packages": []
+ },
+ "astha": {
+  "label": "BRAC Bank Astha",
+  "packages": []
+ },
+ "citytouch": {
+  "label": "Citytouch",
+  "packages": [
+   "com.thecitybank.citytouch"
+  ]
+ },
+ "cellfin": {
+  "label": "Cellfin",
+  "packages": []
+ },
+ "pathao": {
+  "label": "Pathao",
+  "packages": [
+   "com.pathao.user"
+  ]
+ },
+ "shohoz": {
+  "label": "Shohoz",
+  "packages": []
+ },
+ "foodpanda": {
+  "label": "foodpanda",
+  "packages": [
+   "com.global.foodpanda.android"
+  ]
+ },
+ "daraz": {
+  "label": "Daraz",
+  "packages": [
+   "com.daraz.android"
+  ]
+ },
+ "chaldal": {
+  "label": "Chaldal",
+  "packages": [
+   "com.chaldal.poached"
+  ]
+ },
+ "mygp": {
+  "label": "MyGP",
+  "packages": [
+   "com.portonics.mygp"
+  ]
+ },
+ "myrobi": {
+  "label": "My Robi",
+  "packages": [
+   "net.omobio.robisc"
+  ]
+ },
+ "mybl": {
+  "label": "MyBL",
+  "packages": [
+   "com.arena.banglalinkmela.app"
+  ]
+ },
+ "toffee": {
+  "label": "Toffee",
+  "packages": [
+   "com.banglalink.toffee"
+  ]
+ },
+ "prothomalo": {
+  "label": "Prothom Alo",
+  "packages": []
+ }
+}
