@@ -18,7 +18,7 @@ android {
         applicationId = "app.iconz"
         minSdk = 26
         targetSdk = 36
-        versionCode = 3
+        versionCode = 4
         versionName = "0.2.0"
     }
 
