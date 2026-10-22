@@ -1,6 +1,5 @@
 package app.iconz
 
-import android.app.Activity
 import android.app.AlertDialog
 import android.content.Context
 import android.graphics.Typeface
@@ -61,5 +60,3 @@ fun View.padForSystemBars() {
         insets
     }
 }
-
-val Activity.isGone get() = isFinishing || isDestroyed

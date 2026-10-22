@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  Iconz is only icons: no permissions, no internet, no reading of other apps.
+  Play Protect flags new apps that download or install APKs, so keep it that way.
+-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- In-app updates: download the new APK and hand it to Android's installer. -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-
     <queries>
-        <!-- Missing icons: every app on the home screen. -->
-        <intent>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent>
-        <!-- Apply: launchers that take icon packs. -->
+        <!-- Apply: only these launchers, to offer them in the list. -->
         <package android:name="com.teslacoilsw.launcher" />
         <package android:name="app.lawnchair" />
         <package android:name="app.lawnchair.play" />
@@ -55,16 +50,5 @@
                 <category android:name="com.fede.launcher.THEME_ICONPACK" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name=".MissingActivity"
-            android:exported="false" />
-
-        <!-- Serves a downloaded update APK to the system installer. -->
-        <provider
-            android:name=".UpdateProvider"
-            android:authorities="${applicationId}.updates"
-            android:exported="false"
-            android:grantUriPermissions="true" />
     </application>
 </manifest>

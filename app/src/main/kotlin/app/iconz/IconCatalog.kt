@@ -57,10 +57,6 @@ object IconCatalog {
         return out
     }
 
-    /** Package name → drawable, for icons drawn but not yet mapped to an activity. */
-    fun drawableForPackage(ctx: Context): Map<String, String> =
-        index(ctx).flatMap { (drawable, e) -> e.packages.map { it to drawable } }.toMap()
-
     private fun index(ctx: Context): Map<String, Entry> {
         val json = ctx.assets.open("icon_index.json").bufferedReader().use { JSONObject(it.readText()) }
         return json.keys().asSequence().associateWith { key ->

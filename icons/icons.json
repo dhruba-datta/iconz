@@ -1,5 +1,5 @@
 {
-  "_readme": "The one list of Iconz icons. After editing, run: python3 tool/build_icons.py. drawable = file in app/src/main/res/drawable. packages = Play Store package names (used by the Missing icons screen; unverified guesses are marked). components = exact package/activity entries launchers match; fill them from the phone with --merge.",
+  "_readme": "The one list of Iconz icons. After editing, run: python3 tool/build_icons.py. drawable = file in app/src/main/res/drawable. packages = Play Store package names (used by tool/scan_phone.py; unverified guesses are marked). components = exact package/activity entries launchers match; fill them from the phone with scan_phone.py and --merge.",
   "icons": [
     {"drawable": "bkash", "label": "bKash", "category": "Bangladesh", "packages": ["com.bKash.customerapp"], "components": []},
     {"drawable": "nagad", "label": "Nagad", "category": "Bangladesh", "packages": ["com.konasl.nagad"], "components": []},

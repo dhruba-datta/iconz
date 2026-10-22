@@ -2,15 +2,15 @@
 """Write the files launchers and the app read, from icons/icons.json.
 
     python3 tool/build_icons.py                    # regenerate after editing icons.json
-    python3 tool/build_icons.py --merge missing.txt  # add activities shared from the phone
+    python3 tool/build_icons.py --merge missing.txt  # add activities found on the phone
 
 Writes app/src/main/res/xml/appfilter.xml (and the same file in assets/, where some
 launchers look), res/xml/drawable.xml (the icon picker list) and assets/icon_index.json
-(labels and packages, for the app's own screens).
+(labels and packages, for the app's gallery).
 
-missing.txt comes from the app's Missing icons → Share list. Each line is
-"<drawable or -> <package/activity> # <app name>"; lines with a drawable are added to that
-icon's components. Lines with "-" are apps with no icon yet; they are printed as a to-do.
+missing.txt comes from tool/scan_phone.py. Each line is "<drawable or -> <package/activity>"
+(anything after # is ignored); lines with a drawable are added to that icon's components.
+Lines with "-" are apps with no icon yet; they are printed as a to-do.
 """
 import json
 import sys

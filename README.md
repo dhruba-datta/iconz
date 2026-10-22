@@ -30,10 +30,11 @@ Works with launchers that support icon packs: Lawnchair, Nova, Smart Launcher, N
 Hyperion, Action Launcher and others. Pixel and Samsung's own launchers don't take icon
 packs. Needs Android 8.0 or newer.
 
-## Updates
+## What it does (and doesn't)
 
-Iconz checks this repository for a newer release and offers to install it (Check for
-updates, plus a quiet check twice a day). Updates install over the existing app.
+Iconz is only icons. It asks for **no permissions**: no internet, no access to your other
+apps or files. To update, download the latest `iconz.apk` again; it installs over the old
+one.
 
 Every release is signed with the same key. Check a download with
 `apksigner verify --print-certs iconz.apk`; the certificate's SHA-256 digest must be:
@@ -44,8 +45,9 @@ Every release is signed with the same key. Check a download with
 
 ## Missing an app?
 
-Open Iconz → **Missing icons** to see which of your apps have no icon yet, and share the
-list in an [issue](https://github.com/dhruba-datta/iconz/issues).
+Open an [issue](https://github.com/dhruba-datta/iconz/issues) with the app's name. With the
+phone plugged into a computer (USB debugging on), `python3 tool/scan_phone.py` lists every
+app on it that has no icon yet.
 
 ## Building
 

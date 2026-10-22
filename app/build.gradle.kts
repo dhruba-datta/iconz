@@ -9,7 +9,6 @@ plugins {
 val keyProps = Properties().apply {
     rootProject.file("key.properties").takeIf { it.exists() }?.inputStream()?.use { load(it) }
 }
-val releasesRepo = (findProperty("iconz.releasesRepo") as String?).orEmpty()
 
 android {
     namespace = "app.iconz"
@@ -19,9 +18,8 @@ android {
         applicationId = "app.iconz"
         minSdk = 26
         targetSdk = 36
-        versionCode = 2
-        versionName = "0.1.0"
-        buildConfigField("String", "RELEASES_REPO", "\"$releasesRepo\"")
+        versionCode = 3
+        versionName = "0.2.0"
     }
 
     buildFeatures {
@@ -41,11 +39,12 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = true
+            // No code shrinking or obfuscation: the app is tiny, and readable code is
+            // easier for Play Protect (and anyone) to check.
+            isMinifyEnabled = false
             // Never shrink resources: launchers find icons by name through appfilter.xml,
             // so the shrinker would see them as unused and delete every icon.
             isShrinkResources = false
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"))
             signingConfig = signingConfigs.findByName("release") ?: signingConfigs.getByName("debug")
         }
     }

@@ -1,21 +1,21 @@
 #!/usr/bin/env bash
-# Publish a new Iconz version (same flow as Wallet).
+# Publish a new Iconz version.
 #
-#   ./release.sh 0.2.0 "Added Upay, NexusPay and Cellfin"
+#   ./release.sh 0.3.0 "Added Upay, NexusPay and Cellfin"
 #
 # Regenerates the icon files, bumps versionName/versionCode in app/build.gradle.kts, builds
-# a release APK signed with Iconz's release key, checks the signature, and creates GitHub
-# release v<version> in the public releases repo with iconz.apk and latest.json. The app's
-# Check for updates reads latest.json from there.
+# a release APK signed with Iconz's release key, checks it has no permissions and the right
+# signature, and creates GitHub release v<version> with iconz.apk. The README's download
+# link always gives the latest release; it installs over the previous one.
 set -euo pipefail
 
 REPO=dhruba-datta/iconz
 # SHA-256 of the release signing certificate (../local/keys/iconz-release.jks). Android only
-# installs an update signed with the same key, so never publish anything else.
+# installs a new version over the old one if it is signed with the same key.
 CERT_SHA256=06e526fa283b9c5ba93c4074532c4780fe3528a9f838b3174bdd5b8a33588bd6
 
 VERSION=${1:?usage: ./release.sh <version> "<release notes>"}
-NOTES=${2:?release notes are shown in the app before updating; please give some}
+NOTES=${2:?please give release notes}
 [[ $VERSION =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || { echo "version must look like 1.2.3"; exit 1; }
 
 export JAVA_HOME=${JAVA_HOME:-/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home}
@@ -38,23 +38,21 @@ sed -i '' -e "s/^\( *versionCode = \).*/\1$((code + 1))/" -e "s/^\( *versionName
 echo "→ version $VERSION (build $((code + 1)))"
 
 python3 tool/build_icons.py
-./gradlew --console=plain assembleRelease -Piconz.releasesRepo="$REPO"
+./gradlew --console=plain clean assembleRelease
 
 APK=app/build/outputs/apk/release/app-release.apk
 "$BUILD_TOOLS/apksigner" verify --print-certs "$APK" | grep -q "SHA-256 digest: $CERT_SHA256" \
   || { echo "✗ APK is not signed with Iconz's release key; not publishing"; exit 1; }
+# Iconz must never ask for a permission: that is what got it flagged as harmful before.
+perms=$("$BUILD_TOOLS/aapt2" dump permissions "$APK" | grep uses-permission | grep -v DYNAMIC_RECEIVER_NOT_EXPORTED || true)
+[[ -z $perms ]] || { echo "✗ APK asks for permissions:"; echo "$perms"; exit 1; }
+
 mkdir -p "$OUT"
 cp "$APK" "$OUT/iconz.apk"
 cp "$APK" "$OUT/Iconz-$VERSION.apk"
 
-VERSION="$VERSION" NOTES="$NOTES" SIZE=$(stat -f%z "$OUT/iconz.apk") python3 -c '
-import json, os, datetime
-print(json.dumps({"version": os.environ["VERSION"], "notes": os.environ["NOTES"],
-                  "size": int(os.environ["SIZE"]),
-                  "date": datetime.date.today().isoformat()}))' > "$OUT/latest.json"
-
-gh release create "v$VERSION" "$OUT/iconz.apk" "$OUT/latest.json" --repo "$REPO" \
+gh release create "v$VERSION" "$OUT/iconz.apk" --repo "$REPO" \
   --title "Iconz $VERSION" --notes "$NOTES
 
 Signing certificate SHA-256: \`$CERT_SHA256\`"
-echo "✓ Published v$VERSION. Commit app/build.gradle.kts."
+echo "✓ Published v$VERSION. Commit app/build.gradle.kts and push."

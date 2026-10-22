@@ -1,7 +1,6 @@
 package app.iconz
 
 import android.app.Activity
-import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -11,11 +10,10 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.EditText
 import android.widget.GridView
-import android.widget.HorizontalScrollView
 import android.widget.ImageView
 import android.widget.LinearLayout
 
-/** The icon gallery, with Apply, Missing icons and Check for updates. */
+/** The icon gallery with search, and Apply. */
 class MainActivity : Activity() {
     private lateinit var all: List<Icon>
     private var shown: List<Icon> = emptyList()
@@ -42,12 +40,7 @@ class MainActivity : Activity() {
         val actions = LinearLayout(this).apply { orientation = LinearLayout.HORIZONTAL }
         fun add(v: View) = actions.addView(v, LinearLayout.LayoutParams(-2, -2).apply { marginEnd = dp(8) })
         add(pill("Apply") { Launchers.show(this) })
-        add(pill("Missing icons") { startActivity(Intent(this, MissingActivity::class.java)) })
-        add(pill("Check for updates") { Updates.check(this) })
-        root.addView(HorizontalScrollView(this).apply {
-            isHorizontalScrollBarEnabled = false
-            addView(actions)
-        })
+        root.addView(actions)
 
         val search = EditText(this).apply {
             hint = "Search icons"
@@ -80,13 +73,6 @@ class MainActivity : Activity() {
             LinearLayout.LayoutParams(-1, 0, 1f),
         )
         setContentView(root)
-
-        Updates.checkQuietly(this)
-    }
-
-    override fun onResume() {
-        super.onResume()
-        Updates.resumePendingInstall(this)
     }
 
     private fun filter(q: String) {
