@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path android:pathData="M 24 43.5 c 1.96 -2.1128 16.32 -3.6054 16.32 -16.5149 V 8.1441 S 34.489 4.5 24 4.5 7.68 8.1441 7.68 8.1441 v 18.841 C 7.68 39.8946 22.04 41.3872 24 43.5 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 40.32 9.0552 c -17.8539 0 -22.9745 .7947 -32.64 10.1183" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 11.5 20.4431 v 5.41 a 3.2788 3.2788 0 0 0 3.2788 3.2788 h 0 a 3.2788 3.2788 0 0 0 3.2788 -3.2788 v -5.41" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 18.0576 25.8531 L 18.0576 29.1319" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 30.9 28.3988 a 3.6877 3.6877 0 0 0 2.6966 .7331 h .7356 A 2.17 2.17 0 0 0 36.5 26.96 h 0 a 2.17 2.17 0 0 0 -2.1675 -2.1722 H 32.8613 a 2.17 2.17 0 0 1 -2.1675 -2.1722 h 0 a 2.17 2.17 0 0 1 2.1675 -2.1722 h .7356 a 3.6881 3.6881 0 0 1 2.6966 .733" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 21.2828 25.8531 a 3.2788 3.2788 0 0 0 3.2788 3.2788 h 0 A 3.2788 3.2788 0 0 0 27.84 25.8531 V 23.7219 a 3.2788 3.2788 0 0 0 -3.2788 -3.2788 h 0 a 3.2788 3.2788 0 0 0 -3.2788 3.2788" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 21.2828 20.4431 L 21.2828 33.5583" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>

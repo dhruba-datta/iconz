@@ -13,6 +13,7 @@ when the app's package is already listed in icons.json; "-" means no icon is dra
 """
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -45,7 +46,8 @@ def launcher_activities():
 
 def main():
     icons = json.loads((ROOT / "icons" / "icons.json").read_text())["icons"]
-    mapped = {c for i in icons for c in i["components"]}
+    appfilter = (ROOT / "app" / "src" / "main" / "res" / "xml" / "appfilter.xml").read_text()
+    mapped = set(re.findall(r'ComponentInfo\{([^}]+)\}', appfilter))
     by_package = {p: i["drawable"] for i in icons for p in i["packages"]}
     apps = [c for c in launcher_activities() if c not in mapped]
     ready = [c for c in apps if c.split("/")[0] in by_package]

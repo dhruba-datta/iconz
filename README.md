@@ -5,8 +5,8 @@
 <h1 align="center">Iconz</h1>
 
 <p align="center">
-  <strong>A free, open-source line icon pack for Android, made for Bangladeshi apps.</strong><br />
-  bKash, Nagad, Rocket, Pathao, MyGP, Daraz, banks and more, in a clean white line style.
+  <strong>A free, open-source line icon pack for Android, with Bangladeshi apps.</strong><br />
+  15,000+ thin white line icons, including bKash, Nagad, Rocket, Upay, Pathao, MyGP, Daraz and Bangladeshi banks.
 </p>
 
 <p align="center">
@@ -16,7 +16,9 @@
 
 ---
 
-Most icon packs skip the apps people in Bangladesh use every day. Iconz draws them.
+Most icon packs skip the apps people in Bangladesh use every day. Iconz takes the 15,000+
+icons of [Arcticons](https://github.com/Arcticons-Team/Arcticons) and adds the Bangladeshi
+apps they're missing, drawn in the same style.
 
 <p align="center"><img src="branding/icons.png" width="560" alt="The Iconz icons" /></p>
 
@@ -28,7 +30,7 @@ Most icon packs skip the apps people in Bangladesh use every day. Iconz draws th
 
 Works with launchers that support icon packs: Lawnchair, Nova, Smart Launcher, Niagara,
 Hyperion, Action Launcher and others. Pixel and Samsung's own launchers don't take icon
-packs. Needs Android 8.0 or newer.
+packs. An icon appears on an app only if Iconz has that app; the rest keep their own icon. Needs Android 8.0 or newer.
 
 ## What it does (and doesn't)
 
@@ -56,11 +58,15 @@ python3 tool/build_icons.py      # writes appfilter.xml, drawable.xml from icons
 ./gradlew assembleDebug          # JDK 17 and the Android SDK
 ```
 
-Each icon is a VectorDrawable in `app/src/main/res/drawable/` (48×48, one white path,
-stroke 2.2, round caps). Add it to `icons/icons.json`, run the tool, and preview all icons
-with `python3 tool/preview_icons.py`.
+Iconz's own icons are SVGs in `icons/svg/` (48×48, white strokes of width 1, round caps and
+joins, no fill, like Arcticons). Add one there and to `icons/icons.json`, run
+`tool/build_icons.py`, and preview the Bangladesh set with `tool/preview_icons.py`.
+`tool/import_arcticons.py` refreshes the Arcticons icons from a checkout of that repository.
 
 ## Licence
 
-[MIT](LICENSE). The icons are original drawings. App names and logos they refer to are
-trademarks of their owners; Iconz is not affiliated with or endorsed by any of them.
+Icons: [CC BY-SA 4.0](LICENSE-ICONS.md). Most are from
+[Arcticons](https://github.com/Arcticons-Team/Arcticons) by Donnnno and the Arcticons
+contributors; the Bangladeshi ones are drawn for Iconz. Code: [MIT](LICENSE).
+App names and logos are trademarks of their owners; Iconz is not affiliated with or
+endorsed by any of them.

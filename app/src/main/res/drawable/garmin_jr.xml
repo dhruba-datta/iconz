@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path android:pathData="M 5.5 15.1758 v 23.3242 c 0 2.2091 1.7909 4 4 4 h 29 c 2.2091 0 4 -1.7909 4 -4 V 9.5 c 0 -2.2091 -1.7909 -4 -4 -4 H 15.291" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 2.5 9.4329 A 7 7 0 1 0 16.5 9.4329 A 7 7 0 1 0 2.5 9.4329 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 12.1759 8.1146 c 0 -1.5289 -1.2766 -2.7589 -2.8198 -2.6779 -1.447 .0759 -2.532 1.3775 -2.532 2.8296 v 2.4849 c 0 1.4811 1.1981 2.6817 2.6759 2.6817 h 0 c 1.4779 0 2.6759 -1.2006 2.6759 -2.6817 h -2.6759" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 20.1896 37.5 L 27.8104 37.5" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 16.8902 20.6222 h -3.118 v 3.1342 c 0 2.2085 1.7904 3.9989 3.9989 3.9989 h 1.0423" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 24 37.5 c 0 -5.9218 7.2098 -6.8775 7.2098 -19 h -7.2098 s -7.2098 0 -7.2098 0 c 0 12.1225 7.2098 13.0782 7.2098 19" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 31.1098 20.6222 h 3.118 v 3.1342 c 0 2.2085 -1.7904 3.9989 -3.9989 3.9989 h -1.0423" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 24 20.9647 L 24.9475 22.8846 L 27.0662 23.1925 L 25.5331 24.6869 L 25.895 26.7971 L 24 25.8008 L 22.105 26.7971 L 22.4669 24.6869 L 20.9338 23.1925 L 23.0525 22.8846 L 24 20.9647 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>

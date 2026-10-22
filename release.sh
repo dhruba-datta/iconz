@@ -40,6 +40,7 @@ sed -i '' -e "s/^\( *versionCode = \).*/\1$((code + 1))/" -e "s/^\( *versionName
 echo "→ version $VERSION (build $((code + 1)))"
 
 python3 tool/build_icons.py
+python3 tool/check_icons.py
 ./gradlew --console=plain clean assembleRelease
 
 APK=app/build/outputs/apk/release/app-release.apk

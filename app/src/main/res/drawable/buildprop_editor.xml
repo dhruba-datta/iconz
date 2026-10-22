@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path android:pathData="M 2.5 24 A 21.5 21.5 0 1 0 45.5 24 A 21.5 21.5 0 1 0 2.5 24 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 28.7363 28.315 a 3.2436 3.2436 0 0 1 -3.2113 -3.2564 V 22.942 a 3.2116 3.2116 0 1 1 6.4226 0 v 2.1166 A 3.2436 3.2436 0 0 1 28.7363 28.315 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:pathData="M 20.0428 22.9442 a 3.2436 3.2436 0 0 1 3.2114 -3.2564" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:pathData="M 20.0428 19.6878 L 20.0428 28.3173" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:pathData="M 10.831 25.0609 a 3.2117 3.2117 0 1 0 6.4228 0 V 22.9442 a 3.2117 3.2117 0 1 0 -6.4228 0" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:pathData="M 10.831 19.6878 L 10.831 32.7134" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:pathData="M 34.7462 25.0609 a 3.2117 3.2117 0 1 0 6.4228 0 V 22.9442 a 3.2117 3.2117 0 1 0 -6.4228 0" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:pathData="M 34.7446 19.6878 L 34.7446 32.7134" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 6.7067 32.4586 A 0.7396 0.75 0 1 0 8.1859 32.4586 A 0.7396 0.75 0 1 0 6.7067 32.4586 Z" android:fillColor="#FFFFFFFF" />
+</vector>

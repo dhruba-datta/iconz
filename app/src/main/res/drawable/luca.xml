@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path android:pathData="M 10.462 17.871 v 9.625 c 0 .825 .55 1.375 1.375 1.375 h .4125" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 28.3847 27.496 c -.4125 .825 -1.375 1.375 -2.3375 1.375 h 0 c -1.5125 0 -2.75 -1.2375 -2.75 -2.75 v -1.7875 c 0 -1.5125 1.2375 -2.75 2.75 -2.75 h 0 c .9625 0 1.925 .55 2.3375 1.375" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+            <path android:pathData="M 19.9734 26.1211 c 0 1.5124 -1.2375 2.7499 -2.75 2.7499 h 0 c -1.5124 0 -2.75 -1.2375 -2.75 -2.7499 v -4.5374" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:pathData="M 21.0734 28.871 c -.5502 0 -1.1 -.5499 -1.1 -1.0999 v -6.1874" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+            <path android:pathData="M 36.438 26.1211 c 0 1.5124 -1.2375 2.7499 -2.7499 2.7499 h 0 c -1.5125 0 -2.75 -1.2375 -2.75 -2.7499 v -1.7875 c 0 -1.5124 1.2375 -2.7499 2.75 -2.7499 h 0 c 1.5124 0 2.7499 1.2375 2.7499 2.7499" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:pathData="M 37.538 28.871 c -.55 0 -1.1 -.5499 -1.1 -1.0999 v -6.1874" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 38.4999 42.4999 H 9.4999 c -2.2 0 -4 -1.8 -4 -4 V 9.4999 c 0 -2.2 1.8 -4 4 -4 h 29 c 2.2 0 4 1.8 4 4 v 29 c 0 2.2 -1.8 4 -4 4 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>

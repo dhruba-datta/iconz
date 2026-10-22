@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <group android:translateX="14.59" android:translateY="-6.04">
+        <group android:rotation="45">
+            <path android:pathData="M 12.92 3.41 H 16.27 V 25.78 H 12.92 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <group android:translateX="33.41" android:translateY="-13.84">
+        <group android:rotation="45">
+            <path android:pathData="M 31.73 22.22 H 35.08 V 44.59 H 31.73 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <group android:translateX="12.22" android:translateY="-5.06">
+        <group android:rotation="45">
+            <path android:pathData="M 10.54 5.05 H 13.89 V 19.4 H 10.54 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <group android:translateX="35.78" android:translateY="-14.82">
+        <group android:rotation="45">
+            <path android:pathData="M 34.1 28.6 H 37.45 V 42.95 H 34.1 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <path android:pathData="M 32.22 32.22 L 15.78 15.78" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 36.96 36.96 L 39.8 39.8" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 11.04 11.04 L 8.2 8.2" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>

@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path android:pathData="m 7.8729 36.1226 l 1.6758 2.8946 c .3482 .6094 .8488 1.0882 1.4364 1.4364 l 5.9851 -10.3597 H 5 c 0 .6747 .1741 1.3494 .5223 1.9588 l 2.3505 4.0699 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="m 24 17.9061 l -5.9851 -10.3597 c -.5876 .3482 -1.0882 .827 -1.4364 1.4364 L 5.5223 28.1352 c -.3418 .5963 -.5219 1.2715 -.5223 1.9588 h 11.9702 l 7.0298 -12.1879 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="m 37.0149 40.4536 c .5876 -.3482 1.0882 -.827 1.4364 -1.4364 l .6964 -1.197 3.3299 -5.7675 c .3482 -.6094 .5223 -1.2841 .5223 -1.9588 h -11.9711 l 2.5473 5.0057 3.4387 5.354 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="m 24 17.9061 l 5.9851 -10.3597 c -.5876 -.3482 -1.2623 -.5223 -1.9588 -.5223 h -8.0527 c -.6964 0 -1.3711 .1959 -1.9588 .5223 l 5.9851 10.3597 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="m 31.0298 30.0939 h -14.0596 l -5.9851 10.3597 c .5876 .3482 1.2623 .5223 1.9588 .5223 h 22.1123 c .6964 0 1.3711 -.1959 1.9588 -.5223 l -5.9851 -10.3597 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="m 36.9496 18.559 l -5.5281 -9.5762 c -.3482 -.6094 -.8488 -1.0882 -1.4364 -1.4364 l -5.9851 10.3597 7.0298 12.1879 h 11.9485 c 0 -.6747 -.1741 -1.3494 -.5223 -1.9588 l -5.5063 -9.5762 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>

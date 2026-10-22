@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path android:pathData="M 43 27.67 27.67 43 a 5.18 5.18 0 0 1 -7.34 0 L 5 27.67 a 5.18 5.18 0 0 1 0 -7.34 L 20.33 5 a 5.18 5.18 0 0 1 7.34 0 L 43 20.33 A 5.18 5.18 0 0 1 43 27.67 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <group android:translateX="-8.17" android:translateY="19.71">
+        <group android:rotation="-45">
+            <path android:pathData="M 11.21 14.71 H 28.21 A 2 2 0 0 1 30.21 16.71 V 22.71 A 2 2 0 0 1 28.21 24.71 H 11.21 A 2 2 0 0 1 9.21 22.71 V 16.71 A 2 2 0 0 1 11.21 14.71 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <group android:translateX="-11.97" android:translateY="28.9">
+        <group android:rotation="-45">
+            <path android:pathData="M 20.4 23.9 H 37.4 A 2 2 0 0 1 39.4 25.9 V 31.9 A 2 2 0 0 1 37.4 33.9 H 20.4 A 2 2 0 0 1 18.4 31.9 V 25.9 A 2 2 0 0 1 20.4 23.9 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <group android:translateX="-15.71" android:translateY="27.36">
+        <group android:rotation="-45">
+            <path android:pathData="M 23.17 30.64 H 27.17 V 34.64 H 23.17 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <group android:translateX="-8.24" android:translateY="30.45">
+        <group android:rotation="-45">
+            <path android:pathData="M 30.64 23.17 H 34.64 V 27.17 H 30.64 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <group android:translateX="-8.17" android:translateY="19.71">
+        <group android:rotation="-45">
+            <path android:pathData="M 15.21 17.71 H 24.21 V 21.71 H 15.21 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+</vector>

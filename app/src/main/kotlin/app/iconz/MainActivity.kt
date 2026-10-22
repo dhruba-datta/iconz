@@ -1,6 +1,8 @@
 package app.iconz
 
 import android.app.Activity
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -12,18 +14,22 @@ import android.widget.EditText
 import android.widget.GridView
 import android.widget.ImageView
 import android.widget.LinearLayout
+import android.widget.TextView
+import java.text.NumberFormat
 
-/** The icon gallery with search, and Apply. */
+/** The icon gallery: Bangladesh or all icons, search, Apply and About. */
 class MainActivity : Activity() {
-    private lateinit var all: List<Icon>
+    private lateinit var catalog: Catalog
+    private var tab: List<Icon> = emptyList()
     private var shown: List<Icon> = emptyList()
+    private var query = ""
     private lateinit var adapter: BaseAdapter
+    private lateinit var tabs: List<TextView>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        all = IconCatalog.icons(this)
-        shown = all
-        val mapped = IconCatalog.themedComponents(this).size
+        catalog = IconCatalog.load(this)
+        val n = NumberFormat.getIntegerInstance()
 
         val root = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
@@ -33,14 +39,25 @@ class MainActivity : Activity() {
         }
         root.addView(label(getString(R.string.app_name), 28f, bold = true))
         root.addView(
-            label("${all.size} icons · $mapped apps mapped · v${BuildConfig.VERSION_NAME}", 13f, Palette.MUTED)
-                .apply { setPadding(0, dp(2), 0, dp(14)) },
+            label(
+                "${n.format(catalog.all.size)} icons · ${n.format(catalog.appEntries)} apps · v${BuildConfig.VERSION_NAME}",
+                13f, Palette.MUTED,
+            ).apply { setPadding(0, dp(2), 0, dp(14)) },
         )
 
         val actions = LinearLayout(this).apply { orientation = LinearLayout.HORIZONTAL }
         fun add(v: View) = actions.addView(v, LinearLayout.LayoutParams(-2, -2).apply { marginEnd = dp(8) })
+        tabs = listOf(
+            pill("Bangladesh") { select(0) },
+            pill("All icons") { select(1) },
+        )
+        tabs.forEach(::add)
         add(pill("Apply") { Launchers.show(this) })
-        root.addView(actions)
+        add(pill("About") { about() })
+        root.addView(android.widget.HorizontalScrollView(this).apply {
+            isHorizontalScrollBarEnabled = false
+            addView(actions)
+        })
 
         val search = EditText(this).apply {
             hint = "Search icons"
@@ -51,7 +68,10 @@ class MainActivity : Activity() {
             background = rounded(Palette.CARD, dp(12))
             setPadding(dp(14), dp(10), dp(14), dp(10))
             addTextChangedListener(object : TextWatcher {
-                override fun afterTextChanged(s: Editable?) = filter(s.toString())
+                override fun afterTextChanged(s: Editable?) {
+                    query = s.toString().trim().lowercase()
+                    refresh()
+                }
                 override fun beforeTextChanged(s: CharSequence?, a: Int, b: Int, c: Int) {}
                 override fun onTextChanged(s: CharSequence?, a: Int, b: Int, c: Int) {}
             })
@@ -67,23 +87,36 @@ class MainActivity : Activity() {
                 verticalSpacing = dp(6)
                 clipToPadding = false
                 setPadding(0, 0, 0, dp(16))
+                isFastScrollEnabled = true
                 adapter = this@MainActivity.adapter
                 setOnItemClickListener { _, _, pos, _ -> preview(shown[pos]) }
             },
             LinearLayout.LayoutParams(-1, 0, 1f),
         )
         setContentView(root)
+        select(0)
     }
 
-    private fun filter(q: String) {
-        val t = q.trim().lowercase()
-        shown = if (t.isEmpty()) all else all.filter { t in it.label.lowercase() || t in it.drawable }
+    private fun select(index: Int) {
+        tab = if (index == 0) catalog.bangladesh else catalog.all
+        tabs.forEachIndexed { i, t ->
+            t.background = rounded(if (i == index) Palette.ACCENT else Palette.CARD, dp(18))
+            t.setTextColor(if (i == index) Palette.BG else Palette.TEXT)
+        }
+        refresh()
+    }
+
+    private fun refresh() {
+        // Searching always looks through every icon.
+        shown = if (query.isEmpty()) tab
+        else (catalog.bangladesh + catalog.all).distinctBy { it.drawable }
+            .filter { query in it.label.lowercase() || query in it.drawable }
         adapter.notifyDataSetChanged()
     }
 
     private fun preview(icon: Icon) {
         val big = ImageView(this).apply {
-            setImageResource(icon.resId)
+            setImageResource(IconCatalog.drawableId(this@MainActivity, icon.drawable))
             background = rounded(Palette.CARD, dp(28))
             setPadding(dp(24), dp(24), dp(24), dp(24))
         }
@@ -92,10 +125,25 @@ class MainActivity : Activity() {
             setPadding(dp(24), dp(20), dp(24), 0)
             addView(big, LinearLayout.LayoutParams(dp(144), dp(144)))
         }
-        val apps = icon.packages.joinToString("\n").ifEmpty { "No app package listed yet" }
+        val apps = icon.packages.joinToString("\n")
         dialog().setTitle(icon.label).setView(box)
-            .setMessage("${icon.category}\n\n$apps\n\nDrawable: ${icon.drawable}")
+            .setMessage(if (apps.isEmpty()) "Drawable: ${icon.drawable}" else "$apps\n\nDrawable: ${icon.drawable}")
             .setPositiveButton("Close", null).show()
+    }
+
+    private fun about() {
+        dialog().setTitle("About Iconz")
+            .setMessage(
+                "Iconz ${BuildConfig.VERSION_NAME}, a free line icon pack with Bangladeshi apps.\n\n" +
+                    "Most icons are from Arcticons by Donnnno and the Arcticons contributors, licensed " +
+                    "CC BY-SA 4.0. The Bangladeshi icons are drawn for Iconz and share the same licence. " +
+                    "App names and logos belong to their owners.\n\n" +
+                    "Iconz asks for no permissions and has no internet access.",
+            )
+            .setPositiveButton("Close", null)
+            .setNeutralButton("Source code") { _, _ ->
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/dhruba-datta/iconz")))
+            }.show()
     }
 
     private inner class IconAdapter : BaseAdapter() {
@@ -116,8 +164,8 @@ class MainActivity : Activity() {
                 })
             }
             val icon = shown[position]
-            (cell.getChildAt(0) as ImageView).setImageResource(icon.resId)
-            (cell.getChildAt(1) as android.widget.TextView).text = icon.label
+            (cell.getChildAt(0) as ImageView).setImageResource(IconCatalog.drawableId(this@MainActivity, icon.drawable))
+            (cell.getChildAt(1) as TextView).text = icon.label
             return cell
         }
     }

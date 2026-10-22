@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+        <path android:pathData="m 27.7547 16.2108 c -2.4224 -6.2981 -14.5342 -6.2981 -14.5342 4.3602 -11.6273 0 -11.6273 15.5031 0 15.5031 h 9.6894 m 2.9068 -13.0807 c 2.9068 -7.2671 11.1429 -4.3602 11.1429 1.9379 8.7205 0 8.7205 11.1429 0 11.1429 h -11.6273" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+            <path android:pathData="m 12.736 24.6406 v 7.7516" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+            <path android:pathData="m 12.736 29.5337 c 0 -1.0703 .8676 -1.9379 1.9379 -1.9379 s 1.9379 .8676 1.9379 1.9379 v 3.1975" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        <path android:pathData="m 22.6561 31.7051 c -.345 .6047 -.9878 .9779 -1.684 .9777 h 0 c -1.0703 0 -1.9379 -.8676 -1.9379 -1.9379 v -1.2596 c 0 -1.0703 .8676 -1.9379 1.9379 -1.9379 h 0 c 1.0703 0 1.9379 .8676 1.9379 1.9379 v .6298 h -3.8758 m 6.2981 -5.1839 v 6.7826 c 0 .5351 .4338 .9689 .9689 .9689 h .2907 m 1.56 -.4331 c .3537 .2975 .7354 .4331 1.5939 .4331 h .4351 c .7073 0 1.2809 -.5746 1.2809 -1.2839 h 0 c 0 -.7093 -.5736 -1.2839 -1.2809 -1.2839 h -.8691 c -.7073 0 -1.2809 -.5746 -1.2809 -1.2839 h 0 c 0 -.7093 .5736 -1.2839 1.2809 -1.2839 h .4351 c .8575 0 1.2402 .1366 1.5939 .4331" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 33.3028 25.0766 A 0.75 0.75 0 1 0 34.8028 25.0766 A 0.75 0.75 0 1 0 33.3028 25.0766 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="m 34.0528 27.4505 v 5.1354" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>

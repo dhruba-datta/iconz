@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path android:pathData="M 2.5 24 A 21.5 21.5 0 1 0 45.5 24 A 21.5 21.5 0 1 0 2.5 24 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 10 10 l .9 3.2 2.3 -2.3 -3.2 -.9 Z M 13.7 28.1 c -1 -2.6 -1 -5.6 0 -8.2 M 28.2 34.4 c -2.7 1.1 -5.7 1.1 -8.3 0 M 34.3 19.9 l .2 .7 c .8 2.4 .8 5.1 -.2 7.5 M 19.9 13.7 l .8 -.2 c 2.4 -.8 5 -.7 7.4 .3 M 17.1 19 l -3 -2.9 4.9 1 -2.9 -3 M 31.4 33.3 c .4 0 .7 0 1 -.4 l .4 -.4 c .4 -.4 .4 -1.1 0 -1.5 h 0 c -.4 -.4 -1.1 -.4 -1.5 0 l -.5 .5 c -.4 .4 -1.1 .4 -1.5 0 h 0 c -.4 -.4 -.4 -1.1 0 -1.5 l .4 -.4 c .3 -.3 .6 -.4 1 -.4 M 16.8 28.3 l 2.2 3.6 -3.7 -2.2 2.2 3.7 -3.6 -2.2 M 30.5 17.5 l 1 -.9 M 33.4 17.5 l -1.4 1.5 -3 -2.9 1.5 -1.5" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 12.4 16.8 A 4.4 4.4 0 1 0 21.2 16.8 A 4.4 4.4 0 1 0 12.4 16.8 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 26.8 31.2 A 4.4 4.4 0 1 0 35.6 31.2 A 4.4 4.4 0 1 0 26.8 31.2 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 26.8 16.8 A 4.4 4.4 0 1 0 35.6 16.8 A 4.4 4.4 0 1 0 26.8 16.8 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 12.4 31.2 A 4.4 4.4 0 1 0 21.2 31.2 A 4.4 4.4 0 1 0 12.4 31.2 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 24 35.2 v -14.5 M 24 20.1 l -2.6 2.1 M 26.7 22.2 l -2.7 -2.1 M 24 2.5 v 2.9 M 24 42.6 v 2.9 M 45.5 24 h -2.9 M 5.4 24 h -2.9 M 39.2 8.8 l -2.1 2.1 M 10.9 37.1 l -2.1 2.1 M 39.2 39.2 l -2.1 -2.1" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>

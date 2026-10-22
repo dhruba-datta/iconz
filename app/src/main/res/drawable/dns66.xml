@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path android:pathData="M 9.5005 5.5 H 38.5005 A 4 4 0 0 1 42.5005 9.5 V 38.5 A 4 4 0 0 1 38.5005 42.5 H 9.5005 A 4 4 0 0 1 5.5005 38.5 V 9.5 A 4 4 0 0 1 9.5005 5.5 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 10.9076 22.1502 v -10.6502 h 1.7307 c 2.941 0 5.3251 2.3841 5.3251 5.3251 h 0 c 0 2.941 -2.3841 5.3251 -5.3251 5.3251 h -1.7307 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 20.4721 11.5 L 20.4721 22.1502" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 27.5279 22.1502 L 27.5279 11.5" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 20.4721 11.5 L 27.5279 22.1502" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 10.9075 32.9721 A 3.5279 3.5279 0 1 0 17.9633 32.9721 A 3.5279 3.5279 0 1 0 10.9075 32.9721 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 17.6515 27.1487 c -.5879 -.7698 -1.4837 -1.2989 -2.9684 -1.2989 h -.2477 c -1.9484 0 -3.5279 1.5795 -3.5279 3.5279 v 3.5944" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 20.4721 32.9721 A 3.5279 3.5279 0 1 0 27.5279 32.9721 A 3.5279 3.5279 0 1 0 20.4721 32.9721 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 27.2161 27.1487 c -.5879 -.7698 -1.4837 -1.2989 -2.9684 -1.2989 h -.2477 c -1.9484 0 -3.5279 1.5795 -3.5279 3.5279 v 3.5944" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 30.2476 20.9833 c .6531 .8502 1.472 1.1669 2.6113 1.1669 h 1.5767 c 1.4673 0 2.6568 -1.1921 2.6568 -2.6625 h 0 c 0 -1.4705 -1.1895 -2.6625 -2.6568 -2.6625 h -1.7421 c -1.4673 0 -2.6568 -1.1921 -2.6568 -2.6625 h 0 c 0 -1.4705 1.1895 -2.6625 2.6568 -2.6625 h 1.5767 c 1.1393 0 1.9582 .3167 2.6113 1.1669" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>

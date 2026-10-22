@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path android:pathData="M 38.5 5.5 H 9.4999 c -2.2091 0 -4 1.7909 -4 4 v 29 c 0 2.2091 1.7909 4 4 4 h 29 c 2.2091 0 4 -1.7909 4 -4 V 9.5 c 0 -2.2091 -1.7909 -4 -4 -4 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 15.75 32.75 A 0.75 0.75 0 1 0 17.25 32.75 A 0.75 0.75 0 1 0 15.75 32.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 15.75 32.75 A 0.75 0.75 0 1 0 17.25 32.75 A 0.75 0.75 0 1 0 15.75 32.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 18.25 32.75 A 0.75 0.75 0 1 0 19.75 32.75 A 0.75 0.75 0 1 0 18.25 32.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 15.75 30.25 A 0.75 0.75 0 1 0 17.25 30.25 A 0.75 0.75 0 1 0 15.75 30.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 18.25 30.25 A 0.75 0.75 0 1 0 19.75 30.25 A 0.75 0.75 0 1 0 18.25 30.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 15.75 27.75 A 0.75 0.75 0 1 0 17.25 27.75 A 0.75 0.75 0 1 0 15.75 27.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 15.75 27.75 A 0.75 0.75 0 1 0 17.25 27.75 A 0.75 0.75 0 1 0 15.75 27.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 18.25 27.75 A 0.75 0.75 0 1 0 19.75 27.75 A 0.75 0.75 0 1 0 18.25 27.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 15.75 25.25 A 0.75 0.75 0 1 0 17.25 25.25 A 0.75 0.75 0 1 0 15.75 25.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 18.25 25.25 A 0.75 0.75 0 1 0 19.75 25.25 A 0.75 0.75 0 1 0 18.25 25.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 15.75 22.75 A 0.75 0.75 0 1 0 17.25 22.75 A 0.75 0.75 0 1 0 15.75 22.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 15.75 22.75 A 0.75 0.75 0 1 0 17.25 22.75 A 0.75 0.75 0 1 0 15.75 22.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 18.25 22.75 A 0.75 0.75 0 1 0 19.75 22.75 A 0.75 0.75 0 1 0 18.25 22.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 15.75 20.25 A 0.75 0.75 0 1 0 17.25 20.25 A 0.75 0.75 0 1 0 15.75 20.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 18.25 20.25 A 0.75 0.75 0 1 0 19.75 20.25 A 0.75 0.75 0 1 0 18.25 20.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 15.75 17.75 A 0.75 0.75 0 1 0 17.25 17.75 A 0.75 0.75 0 1 0 15.75 17.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 15.75 17.75 A 0.75 0.75 0 1 0 17.25 17.75 A 0.75 0.75 0 1 0 15.75 17.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 18.25 17.75 A 0.75 0.75 0 1 0 19.75 17.75 A 0.75 0.75 0 1 0 18.25 17.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 20.75 27.75 A 0.75 0.75 0 1 0 22.25 27.75 A 0.75 0.75 0 1 0 20.75 27.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 23.25 22.75 A 0.75 0.75 0 1 0 24.75 22.75 A 0.75 0.75 0 1 0 23.25 22.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 20.75 25.25 A 0.75 0.75 0 1 0 22.25 25.25 A 0.75 0.75 0 1 0 20.75 25.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 20.75 25.25 A 0.75 0.75 0 1 0 22.25 25.25 A 0.75 0.75 0 1 0 20.75 25.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 23.25 25.25 A 0.75 0.75 0 1 0 24.75 25.25 A 0.75 0.75 0 1 0 23.25 25.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 25.75 25.25 A 0.75 0.75 0 1 0 27.25 25.25 A 0.75 0.75 0 1 0 25.75 25.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 25.75 27.75 A 0.75 0.75 0 1 0 27.25 27.75 A 0.75 0.75 0 1 0 25.75 27.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 20.75 30.25 A 0.75 0.75 0 1 0 22.25 30.25 A 0.75 0.75 0 1 0 20.75 30.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 23.25 27.75 A 0.75 0.75 0 1 0 24.75 27.75 A 0.75 0.75 0 1 0 23.25 27.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 25.75 30.25 A 0.75 0.75 0 1 0 27.25 30.25 A 0.75 0.75 0 1 0 25.75 30.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 15.75 15.25 A 0.75 0.75 0 1 0 17.25 15.25 A 0.75 0.75 0 1 0 15.75 15.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 18.25 15.25 A 0.75 0.75 0 1 0 19.75 15.25 A 0.75 0.75 0 1 0 18.25 15.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 28.25 32.75 A 0.75 0.75 0 1 0 29.75 32.75 A 0.75 0.75 0 1 0 28.25 32.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 28.25 32.75 A 0.75 0.75 0 1 0 29.75 32.75 A 0.75 0.75 0 1 0 28.25 32.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 30.75 32.75 A 0.75 0.75 0 1 0 32.25 32.75 A 0.75 0.75 0 1 0 30.75 32.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 28.25 30.25 A 0.75 0.75 0 1 0 29.75 30.25 A 0.75 0.75 0 1 0 28.25 30.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 30.75 30.25 A 0.75 0.75 0 1 0 32.25 30.25 A 0.75 0.75 0 1 0 30.75 30.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 28.25 27.75 A 0.75 0.75 0 1 0 29.75 27.75 A 0.75 0.75 0 1 0 28.25 27.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 28.25 27.75 A 0.75 0.75 0 1 0 29.75 27.75 A 0.75 0.75 0 1 0 28.25 27.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 30.75 27.75 A 0.75 0.75 0 1 0 32.25 27.75 A 0.75 0.75 0 1 0 30.75 27.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 28.25 25.25 A 0.75 0.75 0 1 0 29.75 25.25 A 0.75 0.75 0 1 0 28.25 25.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 30.75 25.25 A 0.75 0.75 0 1 0 32.25 25.25 A 0.75 0.75 0 1 0 30.75 25.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 28.25 22.75 A 0.75 0.75 0 1 0 29.75 22.75 A 0.75 0.75 0 1 0 28.25 22.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 28.25 22.75 A 0.75 0.75 0 1 0 29.75 22.75 A 0.75 0.75 0 1 0 28.25 22.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 30.75 22.75 A 0.75 0.75 0 1 0 32.25 22.75 A 0.75 0.75 0 1 0 30.75 22.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 28.25 20.25 A 0.75 0.75 0 1 0 29.75 20.25 A 0.75 0.75 0 1 0 28.25 20.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 30.75 20.25 A 0.75 0.75 0 1 0 32.25 20.25 A 0.75 0.75 0 1 0 30.75 20.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 28.25 17.75 A 0.75 0.75 0 1 0 29.75 17.75 A 0.75 0.75 0 1 0 28.25 17.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 28.25 17.75 A 0.75 0.75 0 1 0 29.75 17.75 A 0.75 0.75 0 1 0 28.25 17.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 30.75 17.75 A 0.75 0.75 0 1 0 32.25 17.75 A 0.75 0.75 0 1 0 30.75 17.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 28.25 15.25 A 0.75 0.75 0 1 0 29.75 15.25 A 0.75 0.75 0 1 0 28.25 15.25 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 30.75 15.25 A 0.75 0.75 0 1 0 32.25 15.25 A 0.75 0.75 0 1 0 30.75 15.25 Z" android:fillColor="#FFFFFFFF" />
+</vector>

@@ -1,0 +1,54 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <group android:translateX="2.0903" android:translateY="30.2859">
+        <group android:rotation="-55.994">
+            <path android:pathData="M 25.8759 9.2509 H 33.1812 A 0.2735 0.2735 0 0 1 33.4547 9.5244 V 16.8297 A 0.2735 0.2735 0 0 1 33.1812 17.1032 H 25.8759 A 0.2735 0.2735 0 0 1 25.6024 16.8297 V 9.5244 A 0.2735 0.2735 0 0 1 25.8759 9.2509 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <group android:translateX="-5.2413" android:translateY="29.5142">
+        <group android:rotation="-55.994">
+            <path android:pathData="M 21.4843 15.7603 H 28.7896 A 0.2735 0.2735 0 0 1 29.0631 16.0338 V 23.3391 A 0.2735 0.2735 0 0 1 28.7896 23.6126 H 21.4843 A 0.2735 0.2735 0 0 1 21.2108 23.3391 V 16.0338 A 0.2735 0.2735 0 0 1 21.4843 15.7603 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <group android:translateX="-6.013" android:translateY="36.8458">
+        <group android:rotation="-55.994">
+            <path android:pathData="M 27.9937 20.1519 H 35.299 A 0.2735 0.2735 0 0 1 35.5725 20.4254 V 27.7307 A 0.2735 0.2735 0 0 1 35.299 28.0042 H 27.9937 A 0.2735 0.2735 0 0 1 27.7202 27.7307 V 20.4254 A 0.2735 0.2735 0 0 1 27.9937 20.1519 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <group android:translateX="-12.5729" android:translateY="28.7425">
+        <group android:rotation="-55.994">
+            <path android:pathData="M 17.0927 22.2697 H 24.398 A 0.2735 0.2735 0 0 1 24.6715 22.5432 V 29.8485 A 0.2735 0.2735 0 0 1 24.398 30.122 H 17.0927 A 0.2735 0.2735 0 0 1 16.8192 29.8485 V 22.5432 A 0.2735 0.2735 0 0 1 17.0927 22.2697 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <group android:translateX="-19.9045" android:translateY="27.9707">
+        <group android:rotation="-55.994">
+            <path android:pathData="M 12.7011 28.779 H 20.0064 A 0.2735 0.2735 0 0 1 20.2799 29.0525 V 36.3578 A 0.2735 0.2735 0 0 1 20.0064 36.6313 H 12.7011 A 0.2735 0.2735 0 0 1 12.4276 36.3578 V 29.0525 A 0.2735 0.2735 0 0 1 12.7011 28.779 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <group android:translateX="-20.6762" android:translateY="35.3023">
+        <group android:rotation="-55.994">
+            <path android:pathData="M 19.2104 33.1707 H 26.5157 A 0.2735 0.2735 0 0 1 26.7892 33.4442 V 40.7495 A 0.2735 0.2735 0 0 1 26.5157 41.023 H 19.2104 A 0.2735 0.2735 0 0 1 18.9369 40.7495 V 33.4442 A 0.2735 0.2735 0 0 1 19.2104 33.1707 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <group android:translateX="-19.1327" android:translateY="20.6391">
+        <group android:rotation="-55.994">
+            <path android:pathData="M 6.1917 24.3874 H 13.497 A 0.2735 0.2735 0 0 1 13.7705 24.6609 V 31.9662 A 0.2735 0.2735 0 0 1 13.497 32.2397 H 6.1917 A 0.2735 0.2735 0 0 1 5.9182 31.9662 V 24.6609 A 0.2735 0.2735 0 0 1 6.1917 24.3874 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <group android:translateX="-4.4695" android:translateY="22.1826">
+        <group android:rotation="-55.994">
+            <path android:pathData="M 14.9749 11.3687 H 22.2802 A 0.2735 0.2735 0 0 1 22.5537 11.6422 V 18.9475 A 0.2735 0.2735 0 0 1 22.2802 19.221 H 14.9749 A 0.2735 0.2735 0 0 1 14.7014 18.9475 V 11.6422 A 0.2735 0.2735 0 0 1 14.9749 11.3687 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <group android:translateX="-6.7848" android:translateY="44.1774">
+        <group android:rotation="-55.994">
+            <path android:pathData="M 34.503 24.5435 H 41.8083 A 0.2735 0.2735 0 0 1 42.0818 24.817 V 32.1223 A 0.2735 0.2735 0 0 1 41.8083 32.3958 H 34.503 A 0.2735 0.2735 0 0 1 34.2295 32.1223 V 24.817 A 0.2735 0.2735 0 0 1 34.503 24.5435 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <group android:translateX="-3.6978" android:translateY="14.851">
+        <group android:rotation="-55.994">
+            <path android:pathData="M 8.4656 6.9771 H 15.7709 A 0.2735 0.2735 0 0 1 16.0444 7.2506 V 14.5559 A 0.2735 0.2735 0 0 1 15.7709 14.8294 H 8.4656 A 0.2735 0.2735 0 0 1 8.1921 14.5559 V 7.2506 A 0.2735 0.2735 0 0 1 8.4656 6.9771 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+</vector>

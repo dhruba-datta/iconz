@@ -1,0 +1,15 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path android:pathData="m 14.5 19 v -3.75 c 0 -1.108 .892 -2 2 -2 h 7 c 1.108 0 2 .892 2 2 v 3.75" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 13.5 19 H 26.5 A 2 2 0 0 1 28.5 21 V 22.5 A 2 2 0 0 1 26.5 24.5 H 13.5 A 2 2 0 0 1 11.5 22.5 V 21 A 2 2 0 0 1 13.5 19 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <group android:rotation="45">
+        <path android:pathData="M 48.071 -2.5 H 56.571 A 2.5 2.5 0 0 1 59.071 0 V 0 A 2.5 2.5 0 0 1 56.571 2.5 H 48.071 A 2.5 2.5 0 0 1 45.571 0 V 0 A 2.5 2.5 0 0 1 48.071 -2.5 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    </group>
+    <path android:pathData="M 5.5 20 A 14.5 14.5 0 1 0 34.5 20 A 14.5 14.5 0 1 0 5.5 20 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="m 16 19 c 0 -.9665 .7835 -1.75 1.75 -1.75 s 1.75 .7835 1.75 1.75" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="m 30.253 30.253 1.9706 1.9706" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="m 25.5 24.5 v 2.25 m -11 -2.25 v 2.25" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 13.75 21.75 A 0.75 0.75 0 1 0 15.25 21.75 A 0.75 0.75 0 1 0 13.75 21.75 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 24.75 21.75 A 0.75 0.75 0 1 0 26.25 21.75 A 0.75 0.75 0 1 0 24.75 21.75 Z" android:fillColor="#FFFFFFFF" />
+</vector>

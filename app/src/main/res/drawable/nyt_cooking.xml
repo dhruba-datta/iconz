@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+        <path android:pathData="M 13.4136 42.1636 c .502 -3.6347 -.1633 -7.4215 -1.874 -10.6675 -1.1755 -2.2305 -2.8304 -4.2166 -3.7 -6.5831 -.8027 -2.1845 -.8812 -4.6284 -.2203 -6.8599 .6609 -2.2315 2.0575 -4.2385 3.9203 -5.6336" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" />
+        <path android:pathData="M 10.5786 42.2117 c .1922 -2.2264 .3844 -4.4528 -.2042 -6.5671 -.5886 -2.1143 -1.9581 -4.1165 -3.3276 -6.1186" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" />
+        <path android:pathData="M 36.1961 42.5 c 1.4529 -3.483 1.9079 -7.3758 1.2974 -11.1 -.7392 -4.5088 -2.9923 -8.7433 -3.1234 -13.3104 -.071 -2.4729 .5027 -4.9614 1.649 -7.1537 1.1463 -2.1922 2.8628 -4.0833 4.9341 -5.4359" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" />
+        <path android:pathData="M 33.9651 42.2118 c .545 -1.3044 1.0174 -2.5823 1.2533 -3.7736 .3401 -1.7179 .1882 -3.2557 .0362 -4.7935" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" />
+        <path android:pathData="M 36.6792 17.9972 c .0248 -1.2813 .0496 -2.5625 .5224 -3.896 .4728 -1.3335 1.3936 -2.7191 2.3143 -4.1047" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" />
+            <path android:pathData="M 28.0479 8.8755 c 7.5653 -.9149 8.7109 8.9953 1.0917 8.9953 -3.3367 0 -9.5335 -2.8831 -12.0783 -2.8831 -2.8985 0 -3.552 2.8831 -1.8529 4.1901" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+            <path android:pathData="M 28.0479 8.8755 c 3.5981 .5074 2.5679 3.5674 .9303 3.5674 -4.4977 0 -7.4807 -2.7524 -11.7401 -2.7524 -5.7739 0 -6.9887 8.3264 -2.0297 9.5028" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+            <group android:translateX="-8.8804" android:translateY="27.8514">
+                <group android:rotation="-45">
+                    <path android:pathData="M 27.1536 22.6194 H 31.2053 V 26.6711 H 27.1536 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+                </group>
+            </group>
+            <path android:pathData="M 29.1781 21.7841 L 29.1781 17.8708" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+            <path android:pathData="M 29.1781 27.5196 L 29.1781 33.4012" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+            <path android:pathData="M 34.7982 27.6503 c -1.3608 3.2829 -3.5904 6.4505 -10.1563 6.4505 -4.7898 0 -8.0189 -3.6443 -8.0189 -8.3572 s 1.1609 -6.8733 4.6822 -9.1414" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+            <path android:pathData="M 24.8573 30.0952 L 24.8573 18.2014 L 17.1305 21.4689" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+            <path android:pathData="M 19.8522 32.2095 L 24.8573 30.0952" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+            <path android:pathData="M 19.8522 20.3234 L 19.8522 31.8097" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+            <path android:pathData="M 34.7982 27.6503 c .6689 4.7668 -2.7755 11.1481 -11.1557 11.1481 -6.512 0 -12.186 -4.613 -12.186 -11.1019 0 -6.7426 5.551 -9.7718 9.8487 -11.0942" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>

@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+        <path android:pathData="M 38.5 5.5 H 9.5 c -2.2091 0 -4 1.7909 -4 4 v 29 c 0 2.2091 1.7909 4 4 4 h 29 c 2.2091 0 4 -1.7909 4 -4 V 9.5 c 0 -2.2091 -1.7909 -4 -4 -4 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 20.2442 22.3462 v 5.0769 c 0 1.6993 1.3776 3.0769 3.0769 3.0769 h 0 c 1.6993 0 3.0769 -1.3776 3.0769 -3.0769 v -5.0769" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 26.3981 27.4231 L 26.3981 30.5" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 32.7632 18.1923 L 32.7632 30.5" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 32.7644 27.8855 L 38.3354 22.3418" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 34.5375 26.1212 L 38.917 30.4815" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 28.7208 18.5769 A 0.75 0.75 0 1 0 30.2208 18.5769 A 0.75 0.75 0 1 0 28.7208 18.5769 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 29.4708 22.3462 L 29.4708 30.5" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 17.2368 30.5 L 13.1597 26.4718" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 13.1599 18.1923 H 13.16 A 4.0769 4.0769 0 0 1 17.2369 22.2692 V 26.4231 A 4.0769 4.0769 0 0 1 13.16 30.5 H 13.1599 A 4.0769 4.0769 0 0 1 9.083 26.4231 V 22.2692 A 4.0769 4.0769 0 0 1 13.1599 18.1923 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>

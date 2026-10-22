@@ -1,98 +1,205 @@
 {
- "bkash": {
-  "label": "bKash",
-  "packages": [
-   "com.bKash.customerapp"
-  ]
- },
- "nagad": {
-  "label": "Nagad",
-  "packages": [
-   "com.konasl.nagad"
-  ]
- },
- "rocket": {
-  "label": "Rocket",
-  "packages": [
-   "com.dbbl.mbs.apps.main"
-  ]
- },
- "upay": {
-  "label": "Upay",
-  "packages": []
- },
- "nexuspay": {
-  "label": "NexusPay",
-  "packages": []
- },
- "astha": {
-  "label": "BRAC Bank Astha",
-  "packages": []
- },
- "citytouch": {
-  "label": "Citytouch",
-  "packages": [
-   "com.thecitybank.citytouch"
-  ]
- },
- "cellfin": {
-  "label": "Cellfin",
-  "packages": []
- },
- "pathao": {
-  "label": "Pathao",
-  "packages": [
-   "com.pathao.user"
-  ]
- },
- "shohoz": {
-  "label": "Shohoz",
-  "packages": []
- },
- "foodpanda": {
-  "label": "foodpanda",
-  "packages": [
-   "com.global.foodpanda.android"
-  ]
- },
- "daraz": {
-  "label": "Daraz",
-  "packages": [
-   "com.daraz.android"
-  ]
- },
- "chaldal": {
-  "label": "Chaldal",
-  "packages": [
-   "com.chaldal.poached"
-  ]
- },
- "mygp": {
-  "label": "MyGP",
-  "packages": [
-   "com.portonics.mygp"
-  ]
- },
- "myrobi": {
-  "label": "My Robi",
-  "packages": [
-   "net.omobio.robisc"
-  ]
- },
- "mybl": {
-  "label": "MyBL",
-  "packages": [
-   "com.arena.banglalinkmela.app"
-  ]
- },
- "toffee": {
-  "label": "Toffee",
-  "packages": [
-   "com.banglalink.toffee"
-  ]
- },
- "prothomalo": {
-  "label": "Prothom Alo",
-  "packages": []
+ "apps": 49566,
+ "icons": {
+  "bkash": {
+   "label": "bKash",
+   "packages": [
+    "com.bKash.customerapp"
+   ]
+  },
+  "nagad": {
+   "label": "Nagad",
+   "packages": [
+    "com.konasl.nagad"
+   ]
+  },
+  "rocket": {
+   "label": "Rocket",
+   "packages": [
+    "com.dbbl.mbs.apps.main"
+   ]
+  },
+  "upay": {
+   "label": "Upay",
+   "packages": [
+    "bd.com.upay.customer"
+   ]
+  },
+  "nexuspay": {
+   "label": "NexusPay",
+   "packages": [
+    "com.dbbl.nexus.pay"
+   ]
+  },
+  "cellfin": {
+   "label": "CellFin",
+   "packages": [
+    "com.ibbl.cellfin"
+   ]
+  },
+  "tallykhata": {
+   "label": "TallyKhata",
+   "packages": [
+    "com.progoti.tallykhata"
+   ]
+  },
+  "brac_bank_astha": {
+   "label": "BRAC Bank Astha",
+   "packages": [
+    "com.bracbank.astha"
+   ]
+  },
+  "citytouch": {
+   "label": "Citytouch",
+   "packages": [
+    "com.thecitybank.citytouch"
+   ]
+  },
+  "ucb_one": {
+   "label": "UCB One",
+   "packages": [
+    "bd.com.ucb.unet"
+   ]
+  },
+  "sonali_ewallet": {
+   "label": "Sonali e-Wallet",
+   "packages": [
+    "bd.com.sonalibank.sw"
+   ]
+  },
+  "ebl_skybanking": {
+   "label": "EBL Skybanking",
+   "packages": [
+    "com.ebl.skybanking",
+    "com.cibl.eblsky"
+   ]
+  },
+  "mtb_banking": {
+   "label": "MTB Smart Banking",
+   "packages": [
+    "com.mtb.mobilebanking"
+   ]
+  },
+  "trust_money": {
+   "label": "Trust Money",
+   "packages": [
+    "com.cibl.tbl"
+   ]
+  },
+  "pathao": {
+   "label": "Pathao",
+   "packages": [
+    "com.pathao.user"
+   ]
+  },
+  "shohoz": {
+   "label": "Shohoz",
+   "packages": [
+    "com.shohoz.rides"
+   ]
+  },
+  "shohoz_bus": {
+   "label": "Shohoz Bus",
+   "packages": [
+    "com.shohoz.bus.android"
+   ]
+  },
+  "foodpanda": {
+   "label": "foodpanda",
+   "packages": [
+    "com.global.foodpanda.android"
+   ]
+  },
+  "daraz": {
+   "label": "Daraz",
+   "packages": [
+    "com.daraz.android"
+   ]
+  },
+  "chaldal": {
+   "label": "Chaldal",
+   "packages": [
+    "com.chaldal.poached"
+   ]
+  },
+  "rokomari": {
+   "label": "Rokomari",
+   "packages": [
+    "com.rokomari"
+   ]
+  },
+  "mygp": {
+   "label": "MyGP",
+   "packages": [
+    "com.portonics.mygp"
+   ]
+  },
+  "my_robi": {
+   "label": "My Robi",
+   "packages": [
+    "net.omobio.robisc"
+   ]
+  },
+  "mybl": {
+   "label": "MyBL",
+   "packages": [
+    "com.arena.banglalinkmela.app"
+   ]
+  },
+  "toffee": {
+   "label": "Toffee",
+   "packages": [
+    "com.banglalink.toffee"
+   ]
+  },
+  "binge": {
+   "label": "Binge",
+   "packages": [
+    "buzz.binge.mobile"
+   ]
+  },
+  "bioscope": {
+   "label": "Bioscope+",
+   "packages": [
+    "com.bongo.bioscope",
+    "com.grameenphone.bioscope"
+   ]
+  },
+  "chorki": {
+   "label": "Chorki",
+   "packages": [
+    "com.prothomalo.chorki"
+   ]
+  },
+  "bongo": {
+   "label": "Bongo",
+   "packages": [
+    "com.bongo.bongobd"
+   ]
+  },
+  "hoichoi": {
+   "label": "hoichoi",
+   "packages": [
+    "com.viewlift.hoichoi"
+   ]
+  },
+  "prothom_alo": {
+   "label": "Prothom Alo",
+   "packages": [
+    "com.mcc.prothomalo"
+   ]
+  },
+  "bdjobs": {
+   "label": "Bdjobs",
+   "packages": [
+    "com.bdjobs.app"
+   ]
+  },
+  "_10_minute_school": {
+   "label": "10 Minute School",
+   "packages": [
+    "com.a10minuteschool.tenminuteschool"
+   ]
+  }
  }
 }

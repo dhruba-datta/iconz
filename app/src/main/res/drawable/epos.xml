@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path android:pathData="M 8.5 8.5 H 39.5 A 4 4 0 0 1 43.5 12.5 V 35.5 A 4 4 0 0 1 39.5 39.5 H 8.5 A 4 4 0 0 1 4.5 35.5 V 12.5 A 4 4 0 0 1 8.5 8.5 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="m 16.8 28 v -8 h 2.619 c 1.4807 0 2.681 1.2029 2.681 2.6867 s -1.2003 2.6867 -2.681 2.6867 h -2.619" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="m 32.558 27.124 c .49056 .63866 1.1057 .87654 1.9615 .87654 l 1.1844 -1e-6 c 1.1022 0 1.9957 -.8935 1.9957 -2 s -.89351 -2 -1.9957 -2 h -1.3065 c -1.1034 0 -1.9978 -.89447 -1.9978 -1.999 0 -1.1046 .89639 -2.001 2.0022 -2.001 h 1.1779 c .85581 0 1.471 .23789 1.9615 .87654" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 10.3 24 L 12.9 24" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="m 14.3 28 h -4 v -8 h 4" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 27.25 20 H 27.25 A 2.65 2.65 0 0 1 29.9 22.65 V 25.35 A 2.65 2.65 0 0 1 27.25 28 H 27.25 A 2.65 2.65 0 0 1 24.6 25.35 V 22.65 A 2.65 2.65 0 0 1 27.25 20 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 17.05 17.5 A 0.75 0.75 0 1 0 18.55 17.5 A 0.75 0.75 0 1 0 17.05 17.5 Z" android:fillColor="#FFFFFFFF" />
+    <path android:pathData="M 20.35 17.5 A 0.75 0.75 0 1 0 21.85 17.5 A 0.75 0.75 0 1 0 20.35 17.5 Z" android:fillColor="#FFFFFFFF" />
+</vector>

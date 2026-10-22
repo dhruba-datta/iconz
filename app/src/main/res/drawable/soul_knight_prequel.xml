@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <group android:translateX="94.1065" android:translateY="38.9802">
+        <group android:rotation="135">
+            <path android:pathData="M 38.5504 35.7451 H 39.4099 A 3.1698 3.1698 0 0 1 42.5797 38.9149 V 39.0454 A 3.1698 3.1698 0 0 1 39.4099 42.2152 H 38.5504 A 3.1698 3.1698 0 0 1 35.3806 39.0454 V 38.9149 A 3.1698 3.1698 0 0 1 38.5504 35.7451 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <group android:translateX="77.3868" android:translateY="32.0547">
+        <group android:rotation="135">
+            <path android:pathData="M 26.0216 28.995 H 38.0878 A 1.7632 1.7632 0 0 1 39.851 30.7582 V 33.3511 A 1.7632 1.7632 0 0 1 38.0878 35.1143 H 26.0216 A 1.7632 1.7632 0 0 1 24.2584 33.3511 V 30.7582 A 1.7632 1.7632 0 0 1 26.0216 28.995 Z" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </group>
+    </group>
+    <path android:pathData="M 5.5 5.5 L 29.8912 29.8912" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 37.9089 35.7496 L 35.9938 32.4471" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 26.5001 33.2822 l -12.0918 -9.873 C 9.0039 18.9965 5.7587 12.4723 5.5 5.5 h 0 s 0 0 0 0 c 6.9723 .2587 13.4965 3.5039 17.9092 8.9084 l 9.873 12.0918" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M 35.7496 37.9089 L 32.4471 35.9938" android:strokeColor="#FFFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>
